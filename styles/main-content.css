@@ -84,3 +84,46 @@
 .text-bottom .text-subtitle {
   font-size: 34px;
 }
+
+@media screen and (max-width: 996px) {
+  .text-bottom .text-subtitle,
+  .text-wrapper div .text-subtitle {
+    font-size: 26px;
+  }
+
+  .main-content .text-paragraph {
+    font-size: 16px;
+  }
+
+  .text-wrapper div,
+  .text-bottom {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .half-content {
+    flex-wrap: wrap;
+  }
+
+  .text-wrapper,
+  .half-image {
+    min-height: 500px;
+    width: 100%;
+  }
+
+  .half-content:first-child .half-image {
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .text-wrapper,
+  .half-image {
+    min-height: 350px;
+  }
+
+  .double-img {
+    padding-bottom: 20px;
+  }
+}

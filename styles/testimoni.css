@@ -47,3 +47,39 @@
   color: var(--dark-grayish-blue);
   margin-top: 5px;
 }
+
+@media screen and (max-width: 1366px) {
+  .testimoni-container {
+    margin: 0;
+    padding: 0 32px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .item-testi-wrapper {
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .item-testi {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .testimoni .text-subtitle {
+    font-size: 26px;
+  }
+
+  .item-testi {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .testimoni .text-subtitle {
+    font-size: 22px;
+  }
+}
