@@ -6,12 +6,6 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 575px) {
-  .banner {
-    background-image: url(../images/mobile/image-header.jpg);
-  }
-}
-
 /* Title */
 .banner-title {
   color: var(--white);
@@ -20,14 +14,6 @@
   position: absolute;
   top: 25vh;
   width: 50vw;
-}
-
-@media only screen and (max-width: 575px) {
-  .banner-title {
-    font-size: 35px;
-    left: calc(50% - (80vw / 2));
-    width: 80vw;
-  }
 }
 /* End of Title */
 
