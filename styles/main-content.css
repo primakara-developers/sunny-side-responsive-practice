@@ -1,6 +1,7 @@
 .half-content {
   display: flex;
 }
+
 .text-wrapper {
   align-items: center;
   display: flex;
@@ -45,6 +46,7 @@
 .yellow-line::after {
   background-color: #fed401a0;
 }
+
 .pink-line::after {
   background-color: pink;
 }
@@ -66,11 +68,11 @@
 }
 
 #graphic-design-img {
-  background-image: url("/images/desktop/image-graphic-design.jpg");
+  background-image: url("../images/desktop/image-graphic-design.jpg");
 }
 
 #photography-img {
-  background-image: url("/images/desktop/image-photography.jpg");
+  background-image: url("../images/desktop/image-photography.jpg");
 }
 
 .text-bottom {
@@ -86,6 +88,7 @@
 }
 
 @media screen and (max-width: 996px) {
+
   .text-bottom .text-subtitle,
   .text-wrapper div .text-subtitle {
     font-size: 26px;
@@ -118,6 +121,7 @@
 }
 
 @media screen and (max-width: 375px) {
+
   .text-wrapper,
   .half-image {
     min-height: 350px;
