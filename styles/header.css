@@ -10,9 +10,24 @@ header {
   z-index: 9999;
 }
 
+@media only screen and (max-width: 576px){
+  header{
+    padding: 15px 30px;
+  }
+}
+
 /* Humberger Button */
 .humberger-button {
   display: none;
+}
+
+@media only screen and (max-width: 576px){
+  .humberger-button{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 .rotate {
@@ -25,6 +40,12 @@ header {
   align-items: center;
   display: flex;
   gap: 30px;
+}
+
+@media only screen and (max-width: 576px){
+  .desktop-nav{
+    display: none;
+  }
 }
 
 .desktop-nav a.nav-item {
